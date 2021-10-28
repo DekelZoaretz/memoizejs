@@ -12,3 +12,5 @@ const memoize = (func, resolver) => {
         return result;
     }
 };
+
+export default memoize;
